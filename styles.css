@@ -9,7 +9,10 @@
 body {
   position: relative;
   min-height: 100vh;
-  background: linear-gradient(90deg, #444 0%, #000 50%, #444 100%);
+  background: linear-gradient(90deg,
+                              #444 0%,
+                              #000 50%, 
+                              #444 100%);
   overflow: hidden;
 }
 
@@ -27,7 +30,8 @@ body {
 .can .can-img {
   position: absolute;
   width: 250px;
-  background: var(--img) var(--left), url(images/can-img.png);
+  background: var(--img) var(--left), 
+             url(images/can-img.png);
   background-size: auto 100%;
   aspect-ratio: 2/4;
   left: 50%;
